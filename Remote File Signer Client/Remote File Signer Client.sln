@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote File Signer Client", "Remote File Signer Client.csproj", "{538B3EA3-7DDD-4699-BDEA-F49045174475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{538B3EA3-7DDD-4699-BDEA-F49045174475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538B3EA3-7DDD-4699-BDEA-F49045174475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538B3EA3-7DDD-4699-BDEA-F49045174475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538B3EA3-7DDD-4699-BDEA-F49045174475}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EF5E7D9-5928-40E0-A5F2-0A1370720CFC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Remote_File_Signer_Client</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Remote File Signer.Shared">
+      <HintPath>..\Remote File Signer.Shared\bin\Release\netstandard2.0\publish\Remote File Signer.Shared.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

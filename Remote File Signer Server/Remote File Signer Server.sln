@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remote File Signer Server", "Remote File Signer Server.csproj", "{8A3FF623-323B-4C15-99C3-CA6D104EA9FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{3217759C-B885-48B0-A666-4D49FD8DBF16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remote File Signer.Shared", "..\Remote File Signer.Shared\Remote File Signer.Shared.csproj", "{D01EFE53-BAD7-4CAF-AF6F-CB65F8CBC2EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A3FF623-323B-4C15-99C3-CA6D104EA9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3FF623-323B-4C15-99C3-CA6D104EA9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3FF623-323B-4C15-99C3-CA6D104EA9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3FF623-323B-4C15-99C3-CA6D104EA9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01EFE53-BAD7-4CAF-AF6F-CB65F8CBC2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01EFE53-BAD7-4CAF-AF6F-CB65F8CBC2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01EFE53-BAD7-4CAF-AF6F-CB65F8CBC2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01EFE53-BAD7-4CAF-AF6F-CB65F8CBC2EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D01EFE53-BAD7-4CAF-AF6F-CB65F8CBC2EC} = {3217759C-B885-48B0-A666-4D49FD8DBF16}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32458227-50A3-4FC1-A19D-5A429C50DC6A}
+	EndGlobalSection
+EndGlobal

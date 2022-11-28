@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote File Signer Tester", "Remote File Signer Tester.csproj", "{C5B74E5B-F016-4691-A2F6-714513FCC330}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{26A4DF92-FCBC-48CF-8661-56C34CD073AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remote File Signer Client", "..\..\Remote File Signer Client\Remote File Signer Client.csproj", "{52D2F926-B1D5-4732-9CBB-9673C8D173D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remote File Signer.Shared", "..\..\Remote File Signer.Shared\Remote File Signer.Shared.csproj", "{15CDF8CE-07F6-4A8E-904A-2A093D7F356E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5B74E5B-F016-4691-A2F6-714513FCC330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B74E5B-F016-4691-A2F6-714513FCC330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B74E5B-F016-4691-A2F6-714513FCC330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B74E5B-F016-4691-A2F6-714513FCC330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D2F926-B1D5-4732-9CBB-9673C8D173D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D2F926-B1D5-4732-9CBB-9673C8D173D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D2F926-B1D5-4732-9CBB-9673C8D173D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D2F926-B1D5-4732-9CBB-9673C8D173D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CDF8CE-07F6-4A8E-904A-2A093D7F356E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CDF8CE-07F6-4A8E-904A-2A093D7F356E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CDF8CE-07F6-4A8E-904A-2A093D7F356E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CDF8CE-07F6-4A8E-904A-2A093D7F356E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52D2F926-B1D5-4732-9CBB-9673C8D173D0} = {26A4DF92-FCBC-48CF-8661-56C34CD073AF}
+		{15CDF8CE-07F6-4A8E-904A-2A093D7F356E} = {26A4DF92-FCBC-48CF-8661-56C34CD073AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12623A0F-51D9-4DFC-9CF3-3670B72D8153}
+	EndGlobalSection
+EndGlobal
